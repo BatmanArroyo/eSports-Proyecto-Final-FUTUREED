@@ -1,0 +1,5 @@
+/* Estilos principales Computadora */
+@import url('styles.css');
+
+/* Diseño responsivo Tablet / Celular */
+@import url('diseñoresponsivo.css');
