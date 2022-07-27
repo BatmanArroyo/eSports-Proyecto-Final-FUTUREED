@@ -7,41 +7,41 @@
 */
 
 @media screen and (max-width: 871px) {
-    #titulo:hover {
-      letter-spacing: normal;
-    }
+  #titulo:hover {
+    letter-spacing: normal;
   }
-  
-  @media screen and (max-width: 1000px) {
-    #titulo {
-      display: none;
-    }
-  
-    #contenido-principal {
-      flex-direction: column;
-    }
-  
-    #juegos-lista button {
-      display: inline-block;
-      width: auto;
-    }  
-  
-    #juegos-lista button:hover, 
-    #juegos-lista button.seleccionado {
-      width: auto;
-    }
-  
-    .bloque-fondo {
-      margin: 10px;
-    }
+}
+
+@media screen and (max-width: 754px) {
+  #titulo {
+    display: none;
   }
-  
-  @media screen and (max-width: 380px) {
-    #ligas {
-      display: none;
-    }
-  
-    #encabezado {
-      justify-content: center;
-    }
+
+  #contenido-principal {
+    flex-direction: column;
   }
+
+  #juegos-lista button {
+    display: inline-block;
+    width: auto;
+  }  
+
+  #juegos-lista button:hover, 
+  #juegos-lista button.seleccionado {
+    width: auto;
+  }
+
+  .bloque-fondo {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #ligas {
+    display: none;
+  }
+
+  #encabezado {
+    justify-content: center;
+  }
+}
